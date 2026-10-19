@@ -18,8 +18,9 @@ pronunciation, then compare any two to see exactly where the resemblance ends.
 | **Components** | A focused component neighbourhood: one shared component, its six closest component groups, and every containing kanji. Browse all 445 components. |
 | **Compare** | Pin up to three kanji, then open “Tell them apart” for shared/unique components, onyomi overlap, and a pixel-difference heatmap. |
 
-Search works across kanji, meanings, readings, strong families, and components. Views are URL-encoded;
-light and dark “sumi atlas” themes are included.
+Search works across kanji, meanings, readings, strong families, and components. Views are URL-encoded
+and shareable; light and dark “sumi atlas” themes are included. A one-click PNG/SVG export was not part of
+this pass — browser print/screenshot is the current fallback.
 
 ## Quick start
 

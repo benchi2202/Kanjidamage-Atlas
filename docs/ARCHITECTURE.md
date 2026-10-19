@@ -263,6 +263,8 @@ The plan above is the approved architecture. Visual QA led to a few deliberate c
   inspector is the detail surface.
 - **Look-alikes shows the top 18 of 28 scored matches** per lens. The consensus strip uses the top 12.
 - **Compare pins up to 3**, with pairwise tabs; the heatmap shows 64×64 overlap / only-A / only-B ink.
+- **One-click PNG/SVG export is not shipped in this pass.** Every view is URL-encoded and shareable;
+  browser print/screenshot is the current fallback.
 
 ### Actual counts in the build
 
