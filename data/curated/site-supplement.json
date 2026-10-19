@@ -1,0 +1,52 @@
+{
+  "source": "One-time cached snapshot of https://www.kanjidamage.com/kanji/667-clique-%E9%96%A5 and the public /kanji index.",
+  "notes": "閥 is the only entry referenced by the dataset's used_in lists that is absent from the GitHub dataset. It is merged as a first-class kanji entry so 門 -> 閥 resolves. The 9 site-only katakana radicals are catalogued but not mixed into kanji groups.",
+  "entries": [
+    {
+      "id": 667,
+      "position": 670,
+      "slug": "clique-閥",
+      "url": "https://www.kanjidamage.com/kanji/667-clique-%E9%96%A5",
+      "kanji": "閥",
+      "image": null,
+      "meaning": "clique",
+      "usefulness": 1,
+      "stroke_count": 14,
+      "frequency_ranking": null,
+      "tags": [],
+      "description": "Site-only supplement: 閥 appears in 門's Used In list but is missing from the GitHub dataset.",
+      "components": [
+        { "id": 160, "kanji": "門", "image": null, "label": "gate" }
+      ],
+      "onyomi": [
+        { "reading": "BATSU", "mnemonic": "When your clique gets to the gate, my clique will strike them down with baseball BATS!" }
+      ],
+      "mnemonic": "When your clique gets to the gate, my clique will strike them down with baseball BATS!",
+      "kunyomi": [
+        { "reading": "ばつ", "particles": null, "meaning": "clique", "usefulness": 1, "tags": ["LAZY"] }
+      ],
+      "jukugo": [
+        { "word": "派閥", "reading": "はばつ", "particles": null, "meaning": "faction", "usefulness": 2, "tags": [], "components": [], "notes": null },
+        { "word": "財閥", "reading": "ざいばつ", "particles": null, "meaning": "big business conglomerate", "usefulness": 1, "tags": [], "components": [], "notes": null }
+      ],
+      "lookalikes": [
+        { "kanji": "闘", "id": 999, "meaning": "struggle", "hint": "BEANS", "radical": "豆", "radical_id": 837, "radical_image": null },
+        { "kanji": "闇", "id": 161, "meaning": "pitch-black darkness", "hint": "SOUND", "radical": "音", "radical_id": 156, "radical_image": null }
+      ],
+      "used_in": [],
+      "media": { "stroke_order": null, "visual_aids": [] },
+      "is_supplement": true
+    }
+  ],
+  "radicals": [
+    { "id": 1756, "char": "ク", "label": "katakana ku" },
+    { "id": 1757, "char": "メ", "label": "katakana me" },
+    { "id": 1758, "char": "ラ", "label": "katakana ra" },
+    { "id": 1759, "char": "ホ", "label": "katakana ho" },
+    { "id": 1760, "char": "テ", "label": "katakana te" },
+    { "id": 1761, "char": "オ", "label": "katakana o" },
+    { "id": 1765, "char": "ノ", "label": "katakana no" },
+    { "id": 1769, "char": "丶", "label": "dot" },
+    { "id": 1770, "char": "ユ", "label": "katakana yu radical" }
+  ]
+}

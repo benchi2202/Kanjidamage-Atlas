@@ -1,0 +1,643 @@
+{
+  "source": "Reviewed from KanjiDamage entry descriptions (tag 24) and the dataset's own onyomi; 2026-10-19.",
+  "entries": {
+    "31": {
+      "readings": [
+        "HAKU"
+      ],
+      "source": "own",
+      "note": "own onyomi: HAKU"
+    },
+    "51": {
+      "readings": [
+        "CHOU"
+      ],
+      "source": "own",
+      "note": "own onyomi: CHOU"
+    },
+    "55": {
+      "readings": [
+        "KA"
+      ],
+      "source": "own",
+      "note": "own onyomi: KA"
+    },
+    "84": {
+      "readings": [
+        "HOU"
+      ],
+      "source": "own",
+      "note": "own onyomi: HOU"
+    },
+    "93": {
+      "readings": [
+        "ZAI",
+        "SAI"
+      ],
+      "source": "note",
+      "note": "STRONG RADICAL for ZAI or SAI."
+    },
+    "104": {
+      "readings": [
+        "BOU"
+      ],
+      "source": "own",
+      "note": "own onyomi: BOU"
+    },
+    "149": {
+      "readings": [
+        "SHIN"
+      ],
+      "source": "own",
+      "note": "own onyomi: SHIN"
+    },
+    "166": {
+      "readings": [
+        "SHOU"
+      ],
+      "source": "own",
+      "note": "own onyomi: SHOU"
+    },
+    "186": {
+      "readings": [
+        "HAN"
+      ],
+      "source": "own",
+      "note": "own onyomi: HAN"
+    },
+    "222": {
+      "readings": [
+        "KAN"
+      ],
+      "source": "own",
+      "note": "own onyomi: KAN"
+    },
+    "245": {
+      "readings": [
+        "SHI"
+      ],
+      "source": "own",
+      "note": "own onyomi: SHI"
+    },
+    "255": {
+      "readings": [
+        "SHO"
+      ],
+      "source": "note",
+      "note": "STRONG RADICAL: almost all kanji which incorporate this radical are pronounced SHO. Even though its own kunyomi is SHA!!!"
+    },
+    "271": {
+      "readings": [
+        "SHI"
+      ],
+      "source": "own",
+      "note": "own onyomi: SHI"
+    },
+    "277": {
+      "readings": [
+        "SOKU"
+      ],
+      "source": "own",
+      "note": "own onyomi: SOKU"
+    },
+    "282": {
+      "readings": [
+        "TEI"
+      ],
+      "source": "own",
+      "note": "own onyomi: TEI"
+    },
+    "288": {
+      "readings": [
+        "TAKU",
+        "YAKU"
+      ],
+      "source": "note",
+      "note": "STRONG RADICAL for \"TAKU\" or \"YAKU\""
+    },
+    "324": {
+      "readings": [
+        "SAKU"
+      ],
+      "source": "note",
+      "note": "strong RADICAL for SAKU"
+    },
+    "354": {
+      "readings": [
+        "KA"
+      ],
+      "source": "own",
+      "note": "own onyomi: KA"
+    },
+    "378": {
+      "readings": [
+        "SHUU"
+      ],
+      "source": "own",
+      "note": "own onyomi: SHUU"
+    },
+    "415": {
+      "readings": [
+        "KEN"
+      ],
+      "source": "note",
+      "note": "ridiculously strong RADICAL for KEN, so you can say:"
+    },
+    "466": {
+      "readings": [
+        "SEI"
+      ],
+      "source": "own",
+      "note": "own onyomi: SEI"
+    },
+    "473": {
+      "readings": [
+        "SEI",
+        "SHOU"
+      ],
+      "source": "own",
+      "note": "own onyomi: SEI, SHOU"
+    },
+    "489": {
+      "readings": [
+        "CHUU"
+      ],
+      "source": "own",
+      "note": "own onyomi: CHUU"
+    },
+    "526": {
+      "readings": [
+        "KYOU"
+      ],
+      "source": "note",
+      "note": "STRONG for KYOU."
+    },
+    "546": {
+      "readings": [
+        "SOKU"
+      ],
+      "source": "own",
+      "note": "own onyomi: SOKU"
+    },
+    "551": {
+      "readings": [
+        "SEKI"
+      ],
+      "source": "own",
+      "note": "own onyomi: SEKI"
+    },
+    "575": {
+      "readings": [
+        "HYOU"
+      ],
+      "source": "own",
+      "note": "own onyomi: HYOU"
+    },
+    "609": {
+      "readings": [
+        "KAKU",
+        "RAKU"
+      ],
+      "source": "note",
+      "note": "STRONG for both かく　and らく!"
+    },
+    "625": {
+      "readings": [
+        "KYUU"
+      ],
+      "source": "own",
+      "note": "own onyomi: KYUU"
+    },
+    "639": {
+      "readings": [
+        "TEI"
+      ],
+      "source": "own",
+      "note": "own onyomi: TEI"
+    },
+    "645": {
+      "readings": [
+        "KOU"
+      ],
+      "source": "own",
+      "note": "own onyomi: KOU"
+    },
+    "676": {
+      "readings": [
+        "SHOKU",
+        "SHIKI"
+      ],
+      "source": "note",
+      "note": "STRONG RADICAL FOR SHOKU and SHIKI."
+    },
+    "682": {
+      "readings": [
+        "KYO"
+      ],
+      "source": "own",
+      "note": "own onyomi: KYO"
+    },
+    "714": {
+      "readings": [
+        "TEKI"
+      ],
+      "source": "note",
+      "note": "Also, Yosemite Sam is Bugs Bunny's ENEMY, and this radical is STRONG FOR \"TEKI \", . . . which is the word for enemy!"
+    },
+    "719": {
+      "readings": [
+        "KI"
+      ],
+      "source": "note",
+      "note": "Although the onyomi for this is KO, it is STRONG FOR 'KI', - which is to say, most of the kanji using this as a radical have the onyomi of KI for some reason!"
+    },
+    "725": {
+      "readings": [
+        "KYUU"
+      ],
+      "source": "own",
+      "note": "own onyomi: KYUU"
+    },
+    "739": {
+      "readings": [
+        "HAN"
+      ],
+      "source": "own",
+      "note": "own onyomi: HAN"
+    },
+    "797": {
+      "readings": [
+        "BAI"
+      ],
+      "source": "own",
+      "note": "own onyomi: BAI"
+    },
+    "825": {
+      "readings": [
+        "TAI"
+      ],
+      "source": "own",
+      "note": "own onyomi: TAI"
+    },
+    "841": {
+      "readings": [
+        "GAN"
+      ],
+      "source": "note",
+      "note": "(COCK:　even though the ON-yomi of 頭 is TOU, the head MUTANT RADICAL is STRONG for GAN)."
+    },
+    "867": {
+      "readings": [
+        "YOU"
+      ],
+      "source": "own",
+      "note": "own onyomi: YOU"
+    },
+    "877": {
+      "readings": [
+        "GI"
+      ],
+      "source": "own",
+      "note": "own onyomi: GI"
+    },
+    "905": {
+      "readings": [
+        "CHOU"
+      ],
+      "source": "own",
+      "note": "own onyomi: CHOU"
+    },
+    "928": {
+      "readings": [
+        "JO"
+      ],
+      "source": "note",
+      "note": "Despite being pronounced YO, this kanji has a STRONG ONYOMI for \"JO\"."
+    },
+    "946": {
+      "readings": [
+        "REI"
+      ],
+      "source": "own",
+      "note": "own onyomi: REI"
+    },
+    "956": {
+      "readings": [
+        "SHI"
+      ],
+      "source": "note",
+      "note": "Even though 次 is pronounced 'ji,' it's STRONG for 'SHI'!!!"
+    },
+    "967": {
+      "readings": [
+        "HEN"
+      ],
+      "source": "note",
+      "note": "STRONG RADICAL for HEN."
+    },
+    "978": {
+      "readings": [
+        "SHI"
+      ],
+      "source": "own",
+      "note": "own onyomi: SHI"
+    },
+    "1000": {
+      "readings": [
+        "JI"
+      ],
+      "source": "own",
+      "note": "own onyomi: JI"
+    },
+    "1009": {
+      "readings": [
+        "KOU"
+      ],
+      "source": "own",
+      "note": "own onyomi: KOU"
+    },
+    "1016": {
+      "readings": [
+        "HAKU",
+        "BAKU"
+      ],
+      "source": "note",
+      "note": "Although the onyomi of 専 is SEN, it's STRONG for HAKU or BAKU. Weird and not helpful, but, it is what it is, yo."
+    },
+    "1053": {
+      "readings": [
+        "KAN"
+      ],
+      "source": "note",
+      "note": "Swan is STRONG for KAN ."
+    },
+    "1087": {
+      "readings": [
+        "KEI"
+      ],
+      "source": "note",
+      "note": "strong ONYOMI for KEI."
+    },
+    "1106": {
+      "readings": [
+        "HEN"
+      ],
+      "source": "own",
+      "note": "own onyomi: HEN"
+    },
+    "1135": {
+      "readings": [
+        "MA"
+      ],
+      "source": "own",
+      "note": "own onyomi: MA"
+    },
+    "1159": {
+      "readings": [
+        "TEI"
+      ],
+      "source": "note",
+      "note": "Although 氏 is pronounced SHI, it is STRONG for TEI!!!!"
+    },
+    "1171": {
+      "readings": [
+        "SHIN"
+      ],
+      "source": "note",
+      "note": "STRONG ONYOMI FOR \"SHIN\""
+    },
+    "1207": {
+      "readings": [
+        "SHOU"
+      ],
+      "source": "own",
+      "note": "own onyomi: SHOU"
+    },
+    "1223": {
+      "readings": [
+        "KA"
+      ],
+      "source": "own",
+      "note": "own onyomi: KA"
+    },
+    "1271": {
+      "readings": [
+        "GAI"
+      ],
+      "source": "note",
+      "note": "STRONG RADICAL FOR GAI"
+    },
+    "1315": {
+      "readings": [
+        "RETSU"
+      ],
+      "source": "own",
+      "note": "own onyomi: RETSU"
+    },
+    "1323": {
+      "readings": [
+        "HI"
+      ],
+      "source": "own",
+      "note": "own onyomi: HI"
+    },
+    "1354": {
+      "readings": [
+        "YU"
+      ],
+      "source": "note",
+      "note": "STRONG RADICAL for \"YU\" (the keyword for YU is 'Your Underpants', BTW)"
+    },
+    "1359": {
+      "readings": [
+        "HEKI"
+      ],
+      "source": "note",
+      "note": "STRONG for HEKI. (use the following mnemonic: It's HECK of stank in here)."
+    },
+    "1363": {
+      "readings": [
+        "RYOU"
+      ],
+      "source": "note",
+      "note": "STRONG RADICAL for RYOU"
+    },
+    "1367": {
+      "readings": [
+        "SHIN"
+      ],
+      "source": "note",
+      "note": "STRONG RADICAL for the ON-yomi of SHIN."
+    },
+    "1379": {
+      "readings": [
+        "GUU"
+      ],
+      "source": "note",
+      "note": "STRONG ONYOMI for GUU"
+    },
+    "1411": {
+      "readings": [
+        "HOU"
+      ],
+      "source": "note",
+      "note": "strong RADICAL for HOU!"
+    },
+    "1412": {
+      "readings": [
+        "HOU"
+      ],
+      "source": "own",
+      "note": "own onyomi: HOU"
+    },
+    "1483": {
+      "readings": [
+        "SO"
+      ],
+      "source": "note",
+      "note": "STRONG RADICAL: Most kanji which use this radical have the on yomi \"SO.\""
+    },
+    "1499": {
+      "readings": [
+        "FUKU"
+      ],
+      "source": "note",
+      "note": "STRONG RADICAL for 'fuku.'"
+    },
+    "1512": {
+      "readings": [
+        "FUKU"
+      ],
+      "source": "note",
+      "note": "STRONG radical for FUKU."
+    },
+    "1543": {
+      "readings": [
+        "SEKI"
+      ],
+      "source": "own",
+      "note": "own onyomi: SEKI"
+    },
+    "1561": {
+      "readings": [
+        "HO"
+      ],
+      "source": "note",
+      "note": "STRONG RADICAL: HO (The keywords for which are, of course, 'Hairy Obese.')"
+    },
+    "1565": {
+      "readings": [
+        "KOU"
+      ],
+      "source": "note",
+      "note": "STRONG RADICAL: KOU"
+    },
+    "1576": {
+      "readings": [
+        "I"
+      ],
+      "source": "note",
+      "note": "STRONG for \"I\""
+    },
+    "1599": {
+      "readings": [
+        "CHI"
+      ],
+      "source": "note",
+      "note": "Often - but not always - STRONG RADICAL for 'CHI.'"
+    },
+    "1604": {
+      "readings": [
+        "ZOU"
+      ],
+      "source": "note",
+      "note": "strong RADICAL: ZOU."
+    },
+    "1613": {
+      "readings": [
+        "KAN"
+      ],
+      "source": "own",
+      "note": "own onyomi: KAN"
+    },
+    "1635": {
+      "readings": [
+        "CHOU"
+      ],
+      "source": "note",
+      "note": "Although　周 is pronounced SHUU, it's STRONG for CHOU. Arg."
+    },
+    "1652": {
+      "readings": [
+        "CHOU"
+      ],
+      "source": "own",
+      "note": "own onyomi: CHOU"
+    },
+    "1665": {
+      "readings": [
+        "KUN",
+        "GUN"
+      ],
+      "source": "note",
+      "note": "strong RADICAL - KUN or GUN."
+    },
+    "1671": {
+      "readings": [
+        "KEN"
+      ],
+      "source": "own",
+      "note": "own onyomi: KEN"
+    },
+    "1675": {
+      "readings": [
+        "SEN"
+      ],
+      "source": "note",
+      "note": "strong for SEN"
+    },
+    "1703": {
+      "readings": [
+        "KI"
+      ],
+      "source": "note",
+      "note": "其 is strong for KI. So you can say,"
+    },
+    "1708": {
+      "readings": [
+        "KAN"
+      ],
+      "source": "note",
+      "note": "Although pronounced JIN, it's strong for KAN."
+    },
+    "1734": {
+      "readings": [
+        "GO"
+      ],
+      "source": "note",
+      "note": "Speaking of \"go,\" this kanji is strong RADICAL FOR \"GO\"."
+    },
+    "1737": {
+      "readings": [
+        "KO"
+      ],
+      "source": "note",
+      "note": "Strong for KO."
+    },
+    "1744": {
+      "readings": [
+        "SAI",
+        "ZAI"
+      ],
+      "source": "note",
+      "note": "STRONG for both SAI and ZAI. Also, the mutant radical is the katakana 'o' (ｵ)."
+    },
+    "1752": {
+      "readings": [
+        "BO"
+      ],
+      "source": "note",
+      "note": "STRONG RADICAL : usually \"BO.\""
+    }
+  }
+}

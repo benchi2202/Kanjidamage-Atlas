@@ -1,0 +1,6 @@
+{
+  "source": "Readings explicitly named in a KanjiDamage onyomi note but outside the leading reading expression.",
+  "entries": {
+    "風": ["FU"]
+  }
+}

@@ -1,6 +1,6 @@
-# KanjiDamage Atlas — Architecture (draft for approval)
+# KanjiDamage Atlas — Architecture
 
-**Status:** proposed · not implemented yet  
+**Status:** implemented · see §10 for implementation notes and deviations
 **Working name:** *KanjiDamage Atlas* (a map of confusable kanji)  
 **Deliverable:** a local, interactive web app (Vite + React + TypeScript + D3) with four grouping modes and a compare view.
 
@@ -246,7 +246,52 @@ Each phase ends with typecheck, unit tests, and a screenshot for review; the pla
 
 ---
 
-## 10. Decisions for approval
+## 10. Implementation notes (post-build)
+
+The plan above is the approved architecture. Visual QA led to a few deliberate changes:
+
+- **Onyomi defaults to a focused constellation** (KYOU) instead of the full 200-island map. The focus
+  includes phonetic neighbours plus the other readings of its multi-reading kanji, so 兄 links KYOU to
+  KEI automatically. “Show all readings” restores the global map. Focus positions are a compact radial
+  layout; the global map keeps the precomputed force layout.
+- **Component mode is a focused neighbourhood + browser**, not a 445-node global force map. A global map
+  of 445 components was unreadable at fit. The focus radar ranks neighbours by shape overlap (stretched,
+  dilated IoU), containment, shared structural labels, and co-occurrence; “Browse all 445” remains.
+  The primary-component policy is still used for the “primary” marker and the all-membership toggle.
+- **Strong mode keeps the full 87-family map** (3 empty families are hidden by default) and **clicks zoom
+  into a family**; quick chips also fly to 青/者/各/生/兄/etc. The full map is an overview; the family
+  inspector is the detail surface.
+- **Look-alikes shows the top 18 of 28 scored matches** per lens. The consensus strip uses the top 12.
+- **Compare pins up to 3**, with pairwise tabs; the heatmap shows 64×64 overlap / only-A / only-B ink.
+
+### Actual counts in the build
+
+| Fact | Value |
+|---|---|
+| Entries | 1,758 (1,637 kanji + 121 image radicals) |
+| Onyomi | 270 groups; 200 with 2+; 47 multi-reading; 139 kanji with no onyomi |
+| Strong | 90 families; 441 refs = 437 kanji + 4 image-radical members; 3 empty (定/倍/傷); 217 exceptions, 22 blank-reading |
+| Components | 445 groups; 262 shared; 179 ungrouped |
+| KanjiVG | 1,635 of 1,637 kanji covered (￥ and < missing) |
+| Pixels | 1,641 glyphs at 64×64 (includes component glyphs); 6 MB binary |
+| Site supplement | 閥 merged; 9 katakana radicals catalogued |
+
+### Reproducible pipeline
+
+- `npm run data:fetch` — cache dataset JSON, KanjiVG zip, repo font/images, tag-24/index/閥 snapshots.
+- `npm run data:build` — normalize, parse readings, curate strong families, extract KanjiVG components,
+  render pixel embeddings, derive groups/layouts, write `public/data`.
+- `npm run data:validate` — independent acceptance checks (counts, 青/者/各, 兄/KYOU/KEI, 不, 明, 閥,
+  pixel binary).
+- `npm run test` — Vitest parser/phonetic/pixel/Jaccard tests.
+- `npm run serve` — tiny static server for `dist`.
+
+The generated `public/data`, `public/fonts`, and `public/media/strong` are gitignored; clone +
+`npm run data:all` regenerates them.
+
+---
+
+## 11. Decisions for approval
 
 **Recommended defaults:**
 
