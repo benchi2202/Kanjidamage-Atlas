@@ -1,0 +1,25 @@
+# dependencies
+node_modules/
+
+# local npm cache (sandbox-safe)
+.npm-cache/
+.npm-logs/
+
+# build output
+dist/
+
+# downloaded and generated data
+data/raw/
+public/data/
+public/fonts/
+public/media/
+
+# scratch / research
+scratch/
+
+# local env and noise
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
