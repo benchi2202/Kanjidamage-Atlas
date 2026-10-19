@@ -136,6 +136,7 @@ docs/ARCHITECTURE.md      approved design + implementation notes
 docs/screenshots/          visual QA captures
 data/raw/                  cached downloads (gitignored)
 data/curated/              reviewed strong readings, supplements, overrides
+data/site-cache/           committed one-time site snapshots for CI
 public/data/               generated app data (gitignored)
 public/fonts/              Noto Sans JP (generated from the dataset media)
 public/media/strong/       strong-radical images (generated)
@@ -144,7 +145,30 @@ src/                       React app
 tests/                     Vitest unit tests
 ~~~
 
-Generated assets are not committed. Run `npm run data:all` after cloning.
+Generated assets are not committed to `main`. Run `npm run data:all` after cloning.
+
+## GitHub Pages
+
+The app is published at **https://benchi2202.github.io/Kanjidamage-Atlas/** from the `gh-pages`
+branch. GitHub Pages is configured to serve that branch at its root.
+
+- `main` stays source-only; generated data, fonts, and radical images are not committed there.
+- `gh-pages` contains the built static site, including the generated assets, so the hosted app needs
+  no build step or runtime scraping.
+- The production base path is set with `GITHUB_PAGES=true`; local builds stay at `/`.
+
+To rebuild the hosted site locally:
+
+~~~bash
+GITHUB_PAGES=true npm run build
+# PowerShell: $env:GITHUB_PAGES='true'; npm run build
+~~~
+
+Then publish the contents of `dist/` to the `gh-pages` branch (the deployed branch includes
+`data/`, `fonts/`, `media/`, and `.nojekyll`).
+
+The one-time site snapshots in `data/site-cache/` let local data builds avoid kanjidamage.com.
+
 
 ## Sources and attribution
 

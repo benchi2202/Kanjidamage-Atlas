@@ -19,6 +19,7 @@ import { unzipSync } from "fflate";
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const RAW = path.join(ROOT, "data", "raw");
 const SITE = path.join(RAW, "site");
+const SITE_CACHE = path.join(ROOT, "data", "site-cache");
 const KVG_ZIP = path.join(RAW, "kanjivg-main.zip");
 const KVG_DIR = path.join(RAW, "kanjivg");
 const REPO_ZIP = path.join(RAW, "kanjidamage-repo.zip");
@@ -171,6 +172,12 @@ async function fetchSite() {
         console.log("cached  site/" + name);
         continue;
       }
+    }
+    const trackedSnapshot = path.join(SITE_CACHE, name);
+    if (await exists(trackedSnapshot)) {
+      await fsp.copyFile(trackedSnapshot, dest);
+      console.log("cached  site/" + name + " from data/site-cache (no network)");
+      continue;
     }
     if (!first) await sleep(1300);
     first = false;

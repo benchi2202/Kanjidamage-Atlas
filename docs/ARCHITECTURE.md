@@ -291,6 +291,15 @@ The plan above is the approved architecture. Visual QA led to a few deliberate c
 The generated `public/data`, `public/fonts`, and `public/media/strong` are gitignored; clone +
 `npm run data:all` regenerates them.
 
+### GitHub Pages
+
+The site is published from the `gh-pages` branch at
+https://benchi2202.github.io/Kanjidamage-Atlas/. The branch contains the built `dist/` output,
+including generated data, font, radical images, and `.nojekyll`; `main` stays source-only. The build
+uses `GITHUB_PAGES=true` so Vite emits the project-page base `/Kanjidamage-Atlas/` and the asset helper
+prefixes media URLs correctly. The three one-time site snapshots in `data/site-cache/` keep local data
+rebuilds off kanjidamage.com.
+
 ---
 
 ## 11. Decisions for approval

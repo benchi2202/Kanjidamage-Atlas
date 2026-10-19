@@ -4,6 +4,7 @@ import { useModel } from "../data/context";
 import { useAtlasStore } from "../state/store";
 import { MapView, type MapApi, type MapBounds } from "../components/MapView";
 import { Icon } from "../components/Icon";
+import { assetUrl } from "../lib/asset";
 
 function positions(count: number, radius: number) {
   const out = [];
@@ -168,7 +169,7 @@ export function StrongMode() {
                         </clipPath>
                       </defs>
                       <image
-                        href={"/media/strong/" + group.image}
+                        href={assetUrl("media/strong/" + group.image)}
                         x={-r * 0.4}
                         y={-r * 0.4}
                         width={r * 0.8}

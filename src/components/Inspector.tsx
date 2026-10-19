@@ -4,6 +4,7 @@ import { useAtlasStore } from "../state/store";
 import { Icon } from "./Icon";
 import { Stars } from "./Controls";
 import { readingList } from "../lib/format";
+import { assetUrl } from "../lib/asset";
 
 function ReadingChips({ entry }: { entry: Entry }) {
   const model = useModel();
@@ -363,7 +364,7 @@ function GroupInspector({ groupId }: { groupId: string }) {
         <div className="inspector-scroll">
           <div className="group-hero strong-hero">
             <div className="group-hero-glyph" lang="ja">
-              {group.image ? <img src={"/media/strong/" + group.image} alt={group.meaning} /> : group.glyph}
+              {group.image ? <img src={assetUrl("media/strong/" + group.image)} alt={group.meaning} /> : group.glyph}
             </div>
             <div>
               <p className="eyebrow">Strong family · {group.source}</p>
@@ -408,7 +409,7 @@ function GroupInspector({ groupId }: { groupId: string }) {
               <div className="radical-list">
                 {group.radicalMembers.map((member) => (
                   <div className="radical-row" key={member.id}>
-                    {member.image ? <img src={"/media/strong/" + member.image} alt={member.meaning ?? "radical"} /> : <span className="radical-placeholder">部</span>}
+                    {member.image ? <img src={assetUrl("media/strong/" + member.image)} alt={member.meaning ?? "radical"} /> : <span className="radical-placeholder">部</span>}
                     <span>{member.meaning ?? "image radical"}</span>
                   </div>
                 ))}
